@@ -132,3 +132,5 @@ func=xmlSecCheckVersionExt:file=xmlsec.c:line=188:obj=unknown:subj=unknown:error
 (mousepad:2621): GLib-GObject-CRITICAL **: 19:42:10.329: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
 
 (xfce4-terminal:3069): Gdk-CRITICAL **: 20:09:40.993: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-terminal:3189): Gdk-CRITICAL **: 20:12:29.370: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
