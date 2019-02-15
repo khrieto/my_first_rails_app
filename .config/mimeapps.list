@@ -1,0 +1,5 @@
+[Added Associations]
+application/vnd.ms-publisher=exo-file-manager.desktop;
+application/x-pem-key=gcr-viewer.desktop;
+application/vnd.oasis.opendocument.text=libreoffice-writer.desktop;
+text/plain=mousepad.desktop;

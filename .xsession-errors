@@ -1,0 +1,134 @@
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/khrieto/.Xauthority
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting LANG=en_IN
+dbus-update-activation-environment: setting GDM_LANG=en_US
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting GTK_OVERLAY_SCROLLING=0
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/khrieto
+dbus-update-activation-environment: setting USER=khrieto
+dbus-update-activation-environment: setting DESKTOP_SESSION=xubuntu
+dbus-update-activation-environment: setting QT_QPA_PLATFORMTHEME=gtk2
+dbus-update-activation-environment: setting PWD=/home/khrieto
+dbus-update-activation-environment: setting HOME=/home/khrieto
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=xubuntu
+dbus-update-activation-environment: setting CLUTTER_BACKEND=x11
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting SHLVL=1
+dbus-update-activation-environment: setting LANGUAGE=en_IN:en
+dbus-update-activation-environment: setting GDMSESSION=xubuntu
+dbus-update-activation-environment: setting LOGNAME=khrieto
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting XAUTHORITY=/home/khrieto/.Xauthority
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-xubuntu:/etc/xdg
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+
+(xfce4-session:846): xfce4-session-WARNING **: 14:32:44.185: xfsm_manager_load_session: Something wrong with /home/khrieto/.cache/sessions/xfce4-session-khrieto-VirtualBox:0, Does it exist? Permissions issue?
+** Message: 14:32:44.381: couldn't access control socket: /run/user/1000/keyring/control: No such file or directory
+
+(polkit-gnome-authentication-agent-1:900): GLib-CRITICAL **: 14:32:48.716: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:900): polkit-gnome-1-WARNING **: 14:32:48.717: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(nm-applet:883): Gtk-WARNING **: 14:32:52.302: Can't set a parent on widget which has a parent
+
+(nm-applet:883): Gdk-CRITICAL **: 14:32:56.437: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+** (wrapper-2.0:994): WARNING **: 14:32:56.512: No outputs have backlight property
+
+(wrapper-2.0:990): GLib-GIO-CRITICAL **: 14:32:56.513: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:990): GLib-GIO-CRITICAL **: 14:32:56.513: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:990): GLib-GObject-WARNING **: 14:32:56.513: invalid (NULL) pointer instance
+
+(wrapper-2.0:990): GLib-GObject-CRITICAL **: 14:32:56.513: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:990): Gtk-WARNING **: 14:32:56.513: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+(wrapper-2.0:990): Gtk-WARNING **: 14:32:56.741: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:994): Gtk-WARNING **: 14:32:57.207: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+
+(wrapper-2.0:995): Gtk-WARNING **: 14:32:57.336: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+
+(wrapper-2.0:976): Gtk-WARNING **: 14:32:58.598: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+
+(xfce4-terminal:1055): Gdk-CRITICAL **: 14:43:22.142: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-terminal:1914): Gdk-CRITICAL **: 14:45:41.562: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+(/usr/lib/firefox/firefox:17129): dconf-WARNING **: 15:56:54.858: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+
+(xfce4-terminal:18205): Gdk-CRITICAL **: 17:09:31.116: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-terminal:18205): Gdk-CRITICAL **: 17:14:02.934: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
+javaldx: Could not find a Java Runtime Environment!
+Please ensure that a JVM and the package libreoffice-java-common
+is installed.
+If it is already installed then try removing ~/.libreoffice/3/user/config/javasettings_Linux_*.xml
+Warning: failed to read path from javaldx
+func=xmlSecCheckVersionExt:file=xmlsec.c:line=188:obj=unknown:subj=unknown:error=19:invalid version:mode=abi compatible;expected minor version=2;real minor version=2;expected subminor version=25;real subminor version=26
+
+(xfce4-terminal:29708): Gdk-CRITICAL **: 18:08:12.938: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-terminal:29861): Gdk-CRITICAL **: 18:09:38.667: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-terminal:1453): Gdk-CRITICAL **: 18:21:06.874: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-terminal:1667): Gdk-CRITICAL **: 19:08:34.159: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-terminal:2346): Gdk-CRITICAL **: 19:30:11.452: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
+
+(mousepad:2621): Gtk-WARNING **: 19:37:58.934: Theme parsing error: <data>:2:29: The style property GtkButton:default-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:2621): Gtk-WARNING **: 19:37:58.934: Theme parsing error: <data>:3:37: The style property GtkButton:default-outside-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:2621): Gtk-WARNING **: 19:37:58.934: Theme parsing error: <data>:4:27: The style property GtkButton:inner-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:2621): Gtk-WARNING **: 19:37:58.934: Theme parsing error: <data>:5:31: The style property GtkWidget:focus-line-width is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:2621): Gtk-WARNING **: 19:37:58.934: Theme parsing error: <data>:6:28: The style property GtkWidget:focus-padding is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:2621): GLib-GObject-CRITICAL **: 19:42:10.328: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(mousepad:2621): GLib-GObject-CRITICAL **: 19:42:10.329: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(mousepad:2621): GLib-GObject-CRITICAL **: 19:42:10.329: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(xfce4-terminal:3069): Gdk-CRITICAL **: 20:09:40.993: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
